@@ -9,6 +9,8 @@ app = Flask(__name__)
 # ...
 
 @app.route('/')
+# def hello():
+ #   return '<h1>Hello Totoro!</h1><img src="http://helloflask.com/totoro.gif">'
 def index():
     return render_template('index.html', name=name, movies=movies)	
 name = 'lightpeng'
