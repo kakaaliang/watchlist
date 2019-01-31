@@ -51,7 +51,7 @@ def forge():
 def index():
     user = User.query.first()
     movies = Movie.query.all()
-    return render_template('index.html', name=name, movies=movies)
+    return render_template('index.html', user=user, movies=movies)
 
 class User(db.Model):
     id = db.Column(db.Integer,primary_key=True)
