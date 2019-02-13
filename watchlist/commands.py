@@ -31,8 +31,8 @@ def forge():
         {'title': 'Devils on the Doorstep', 'year': '1999'},
         {'title': 'WALL-E', 'year': '2008'},
         {'title': 'The Pork of Music', 'year': '2012'},
-        {'title': '流浪地球', 'yera':'2019'},
-        {'title': 'Game of Thrones 8', 'yera': '2019'},
+        {'title': '流浪地球', 'year': '2019'},
+        {'title': 'Game of Thrones 8', 'year': '2019'},
     ]
 
     user = User(name=name)
