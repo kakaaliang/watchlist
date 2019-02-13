@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc4c1e47-f10b-4faa-bdd8-5db28c787b65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/errors/400.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/errors/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watchlist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watchlist.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_watchlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_watchlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchlist/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/watchlist/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +19,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__init__.py">
+        <entry file="file://$PROJECT_DIR$/test_watchlist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="373">
+              <caret line="239" column="19" lean-forward="true" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/watchlist/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -35,10 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands.py">
+        <entry file="file://$PROJECT_DIR$/watchlist/commands.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="164">
+              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -46,74 +54,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/errors.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/watchlist/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2071">
-              <caret line="109" column="37" lean-forward="true" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+            <state relative-caret-position="-1698">
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/errors/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/errors/400.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/errors/500.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="15" column="38" selection-start-line="14" selection-start-column="39" selection-end-line="15" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_watchlist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -146,12 +93,13 @@
         <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/view.py" />
         <option value="$PROJECT_DIR$/test_watchlist.py" />
+        <option value="$PROJECT_DIR$/watchlist/__init__.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="659" />
-    <option name="y" value="28" />
+    <option name="x" value="797" />
+    <option name="y" value="18" />
     <option name="width" value="1231" />
     <option name="height" value="934" />
   </component>
@@ -166,6 +114,11 @@
           <expand>
             <path>
               <item name="watchlist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="watchlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="watchlist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="watchlist" type="462c0819:PsiDirectoryNode" />
               <item name="watchlist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -204,7 +157,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="659" y="28" width="1231" height="934" extended-state="0" />
+    <frame x="797" y="18" width="1231" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="DB Browser" />
@@ -311,16 +264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -378,10 +321,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_watchlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="373">
+          <caret line="239" column="19" lean-forward="true" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watchlist/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watchlist/commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watchlist/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1698">
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
