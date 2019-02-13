@@ -2,7 +2,6 @@ import unittest
 
 from app import app, db, Movie, User, forge, initdb
 
-
 class WatchlistTestCase(unittest.TestCase):
 
     def setUp(self):
