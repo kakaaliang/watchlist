@@ -151,8 +151,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="855" />
-    <option name="y" value="48" />
+    <option name="x" value="778" />
+    <option name="y" value="60" />
     <option name="width" value="1231" />
     <option name="height" value="934" />
   </component>
@@ -216,7 +216,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="855" y="48" width="1231" height="934" extended-state="0" />
+    <frame x="778" y="60" width="1231" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="DB Browser" />
